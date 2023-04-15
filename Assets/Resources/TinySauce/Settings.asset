@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: 
+  gameAnalyticsIosSecretKey: 
+  gameAnalyticsAndroidGameKey: c5812be9308bf737dcdd3a2e460ceec9
+  gameAnalyticsAndroidSecretKey: 41318bc09f1dba3da346b10f1df3804f3dc0ddd0
+  facebookAppId: 2100484723432576
+  adjustIOSToken: 
+  adjustAndroidToken: 1kdbop5wwvr4
+  EditorIdfa: f90fc913-a78e-42a1-aace-b90fef539e3c
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1

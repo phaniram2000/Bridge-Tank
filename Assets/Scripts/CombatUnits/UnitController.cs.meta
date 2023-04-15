@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4560f7ce2dc99fa418aae3b95ad8d3f7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - centerOfMass: {instanceID: 0}
+  - rb: {instanceID: 0}
+  - cannon: {instanceID: 0}
+  - muzzleFlash: {fileID: 198978433997912124, guid: 97c67060c43ae6f499868e7154138bcf, type: 3}
+  - muzzlePoint: {instanceID: 0}
+  - missileSpawn: {instanceID: 0}
+  - missilePrefab: {fileID: 3636569103356435474, guid: c3627f66e9170f44db16c7836090eb5a, type: 3}
+  - hitFx: {fileID: 130848, guid: be97ddf79f7c32c40a6f550588793de8, type: 3}
+  - smokeVfx: {instanceID: 0}
+  - explosionFx: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

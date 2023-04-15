@@ -1,0 +1,10 @@
+tank mass 150
+meshgen mass 120
+
+wheel collider mass 50 (try 30 also)
+spring coeff - 6000 (or try increasing even)
+
+add better jumping in 4loc on both tank and meshgen
+jump multiplier = 3.5f
+
+time scale 1.15
