@@ -21,11 +21,8 @@ public class GameEvents : MonoBehaviour
 	{
 		if (!Singleton) Singleton = this;
 		else Destroy(gameObject);
-		//
-		// if(GAScript.Instance)
-		// 	GAScript.Instance.LevelStart(PlayerPrefs.GetInt("levelNo", 1).ToString());
-		
-		TinySauce.OnGameStarted(PlayerPrefs.GetInt("levelNo", 1).ToString());
+
+
 	}
 
 	public void InvokeEnemyBirth() => enemyBirth?.Invoke();
@@ -58,16 +55,6 @@ public class GameEvents : MonoBehaviour
 	public void InvokeLevelEnd(Faction loser)
 	{
 		levelEnd?.Invoke(loser);
-		
-		TinySauce.OnGameFinished(loser == Faction.Enemy, 0, PlayerPrefs.GetInt("levelNo", 1).ToString());
-		
-		//
-		// if (!GAScript.Instance) return;
-		//
-		// if (loser == Faction.Player)
-		// 	GAScript.Instance.LevelFail(PlayerPrefs.GetInt("levelNo", 1).ToString());
-		// else
-		// 	GAScript.Instance.LevelCompleted(PlayerPrefs.GetInt("levelNo", 1).ToString());
 	}
 	
 	public void InvokeButtonMechanic()
